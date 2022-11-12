@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active, a:focus, a:active {
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+a, button {
+  cursor: pointer;
+  color: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 420px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+  background-color: #19C8FA;
+}
+
+.footer {
+  background-color: #121116;
+  padding: 120px 0 38px;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo {
+  margin-bottom: 51px;
+}
+.footer__title {
+  width: 233px;
+  font-family: "Open Sanse", sans-serif;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 19px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 18px;
+}
+.footer__contacts {
+  display: flex;
+  column-gap: 32px;
+  margin-bottom: 85px;
+}
+.footer__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__link .icon {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+  transition: all 0.5s ease;
+}
+.footer__link:hover .icon {
+  fill: #19C8FA;
+  transform: scale(1.2);
+}
+.footer__link:active .icon {
+  transform: scale(0.9);
+}
+.footer__rights {
+  font-family: "Open Sanse", sans-serif;
+  color: #fff;
+  font-family: "Open Sanse", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.footer__rights .icon {
+  width: 11.275px;
+  height: 11.275px;
+  fill: #fff;
+}
+.footer__rights .blue-text {
+  color: #19C8FA;
+}
+
+/*# sourceMappingURL=style.css.map */
